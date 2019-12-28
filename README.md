@@ -4,7 +4,7 @@ Inshore Ship data with Segmentation and Detection Labels
 We collected inshore ship images of different ports from GoogleEarth, and manually labeled the images for semantic  segmentation and object detection.
 
 ___
-##Files  
+Files  
 The images and segmentation labels are stored in seperated folders: "img" and "label".
 And the rotated bounding boxes of ships for detection are written in "RotationRegionLabels.txt". 
 
