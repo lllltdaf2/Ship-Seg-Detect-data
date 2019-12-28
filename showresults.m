@@ -1,7 +1,5 @@
-%fid=fopen('E:\毕业论文交接\数据集\近岸舰船\GoogleEarth\RotationRegionLabels.txt','r');
-%fid=fopen('E:\毕业论文交接\数据集\近岸舰船\水经注\RotationRegionLabels.txt','r');
-fid=fopen('E:\数据集\近岸舰船\GoogleEarth\RotationRegionLabels.txt','r');
-%fid=fopen('E:\数据集\近岸舰船\水经注\RotationRegionLabels.txt','r');
+fid=fopen('E:\鏁版嵁闆哱杩戝哺鑸拌埞\GoogleEarth\RotationRegionLabels.txt','r');
+%fid=fopen('E:\鏁版嵁闆哱杩戝哺鑸拌埞\姘寸粡娉╘RotationRegionLabels.txt','r');
 
 row=0;
 while ~feof(fid)
@@ -10,16 +8,14 @@ end
 
 row
 
-%rt_img_dir = 'E:\毕业论文交接\数据集\近岸舰船\GoogleEarth\img';
-%rt_img_dir = 'E:\毕业论文交接\数据集\近岸舰船\水经注\label';
-rt_img_dir = 'E:\数据集\近岸舰船\GoogleEarth\label';
-%rt_img_dir = 'E:\数据集\近岸舰船\水经注\label';
+rt_img_dir = 'E:\鏁版嵁闆哱杩戝哺鑸拌埞\GoogleEarth\label';
+%rt_img_dir = 'E:\鏁版嵁闆哱杩戝哺鑸拌埞\姘寸粡娉╘label';
 
 frewind(fid);
 
-select = 1:5; %%%%%%%%       to show specified images here
+select = 1;                                     %%%%%%%%       to show specified images here!!!
 %select = [12 15 21 22 29 33 50]; 
-%select = [70]; 
+%select = 1:10; 
 sn = length(select); cnt=1;
 
 for i=1:select(end)
