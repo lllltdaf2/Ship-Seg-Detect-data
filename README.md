@@ -11,7 +11,8 @@ And the rotated bounding boxes of ships for detection are written in "RotationRe
 ___
 Annotation  
 In "RotationRegionLabels.txt", one image occupies a line, and each line includes:
-File name of image; Number of objects; [And then for each object] rectx(5 values, first and fifth are the same), recty(5  values, first and fifth are the same) of minimal bounding rectangle; cx,cy,w,h,theta (to indicate the rotated bounding box in  an alternative way).
+File name of image; Number of objects; [And then for each object] rectx(5 values, first and fifth are the same), recty(5  values, first and fifth are the same) of minimal bounding rectangle; cx,cy,w,h,theta (to indicate the rotated bounding box in  an alternative way).  
+"showresults.m" shows the labels of data and and helps to understand the above file.
 
 ___
 PASCAL VOC format labels for detection of rectangular bboxes  
