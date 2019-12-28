@@ -21,9 +21,15 @@ Key: 4cye
 You can download the whole set, or only part of it. 
 
 ## Examples
-![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/exampleimgs.png)
-
-![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/exampleseglabels.png)
+Image overview:  
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/exampleimgs.png)  
+Segmentation labels:  
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/exampleseglabels.png)  
+Detection label example:  
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/1.png)  
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/2.png)  
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/3.png)  
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/4.png)  
 
 ## Contributor  
 Zhihong Pan, Hao Dou, Tian Tian, Xiangyu Tan, and many other fellows in AIA-HUST and CS-CUG
