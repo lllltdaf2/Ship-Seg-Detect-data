@@ -8,10 +8,11 @@ And the rotated bounding boxes of ships for detection are written in "RotationRe
 
 # Annotation  
 In "RotationRegionLabels.txt", one image occupies a line, and each line includes:
-File name of image; Number of objects; [And then for each object] rectx(5 values, first and fifth are the same), recty(5  values, first and fifth are the same) of minimal bounding rectangle; cx,cy,w,h,theta (to indicate the rotated bounding box in  an alternative way).  
-"showresults.m" shows the labels of data and and helps to understand the above file.
+File name of image; Number of objects; [And then for each object] rectx (5 values, first and fifth are the same), recty (5 values, first and fifth are the same) of minimal bounding rectangle; cx,cy,w,h,theta (to indicate the rotated bounding box in an alternative way).  
 
-# PASCAL VOC format labels for detection of rectangular bboxes  
+"showresults.m" shows the labels of data and may help you to understand the above file.
+
+# PASCAL VOC format for detection of rectangular bboxes  
 We furthermore rearrange the 200 images in folder "GoogleEarth" in accordance with PASCAL VOC format, provided in folder  "200boatRectBbox".
 
 # Download   
