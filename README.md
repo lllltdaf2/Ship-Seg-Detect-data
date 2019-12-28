@@ -20,5 +20,10 @@ Link: https://pan.baidu.com/s/1GnxLkJr8HJaQzlS3wc53pQ
 Key: 4cye  
 You can download the whole set, or only part of it. 
 
+## Examples
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/exampleimgs.png)
+
+![](https://github.com/lllltdaf2/Ship-Seg-Detect-data/blob/master/examples/exampleseglabels.png)
+
 ## Contributor  
 Zhihong Pan, Hao Dou, Tian Tian, Xiangyu Tan, and many other fellows in AIA-HUST and CS-CUG
